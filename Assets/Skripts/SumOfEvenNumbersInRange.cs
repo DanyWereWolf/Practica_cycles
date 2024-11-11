@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SumOfEvenNumbersInRange : MonoBehaviour
 {
-    [SerializeField] private Text AnswerText;
+    [SerializeField] private Text resultText;
 
     public void OnSumEvenNumbersInRange()
     {
@@ -14,7 +14,7 @@ public class SumOfEvenNumbersInRange : MonoBehaviour
         int got = SumEvenNumbersInRange(min, max);
         string message = want == got ? "Результат верный" : $"Результат не верный, ожидается {want}";
         Debug.Log($"Сумма четных чисел в диапазоне от {min} до {max} включительно: {got} - {message}");
-        AnswerText.text = got.ToString();
+        resultText.text = got.ToString();
     }
     private int SumEvenNumbersInRange(int min, int max)
     {
