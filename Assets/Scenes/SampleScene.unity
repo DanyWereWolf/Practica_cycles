@@ -4516,7 +4516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4228ca5eba44e34fbecc8364cedb551, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnswerText: {fileID: 2067364664}
+  resultText: {fileID: 2067364664}
 --- !u!114 &1911276096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4529,7 +4529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc2423fe371bb0d4fae934cd5194cfc2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AnswerText: {fileID: 1373014918}
+  resultText: {fileID: 1373014918}
 --- !u!114 &1911276097
 MonoBehaviour:
   m_ObjectHideFlags: 0

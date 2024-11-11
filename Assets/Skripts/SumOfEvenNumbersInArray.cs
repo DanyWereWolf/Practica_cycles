@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class SumOfEvenNumbersInArray : MonoBehaviour
 {
-    [SerializeField] private Text resulrText;
+    [SerializeField] private Text resultText;
 
     public void OnSumEvenNumbersInArray()
     {
@@ -13,7 +13,7 @@ public class SumOfEvenNumbersInArray : MonoBehaviour
         int got = SumEvenNumbersInArray(array);
         string message = want == got ? "Результат верный" : $"Результат не верный, ожидается {want}";
         Debug.Log($"Сумма четных чисел в заданном массиве: {got} - {message}");
-        resulrText.text = got.ToString();
+        resultText.text = got.ToString();
     }
 
     private int SumEvenNumbersInArray(int[] array)
